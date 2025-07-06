@@ -8,7 +8,7 @@ def withdraw(balance,amount):
     if amount <= balance:
         balance -= amount
         return balance
-      
+
 def check_balance(balance):
     print(f"Balance: {balance}")
 
